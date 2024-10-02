@@ -1,0 +1,114 @@
+
+  393  cd ProjectAnimal
+  394  [200~cat > Домашние_животные <<EOF
+  395  Собаки
+  396  Кошки
+  397  Хомяки
+  398  EOF
+  399  cat > Домашние_животные <<EOF
+  400  cat
+  401  Собаки
+  402  Кошки
+  403  Хомяки
+  404  cat > Домашние_животные <<EOF
+  405  Собаки
+  406  Кошки
+  407  Хомяки
+  408  EOF
+  409  cat > Домашние_животные <<EOF
+  410  Собаки
+  411  Кошки
+  412  Хомяки
+  413  EOF
+  414  cat > Вьючные_животные <<EOF
+  415  Лошади
+  416  Верблюды
+  417  Ослы
+  418  EOF
+  419  cat > Домашние_животные
+  420  git clone https://github.com/FRONTED-7/ProjectAnimal.git
+  421  cd ProjectAnimal
+  422  cat > Домашние_животные
+  423  $ cp /dev/null ProjectAnimal
+  424  cd ProjectAnimal
+  425  cat ProjectAnimal
+  426  cat > Домашние_животные <<EOF
+  427  Собаки
+  428  Кошки
+  429  Хомяки
+  430  EOF
+  431  cat > Вьючные_животные <<EOF
+  432  Лошади
+  433  Верблюды
+  434  Ослы
+  435  EOF
+  436  cat Домашние_животные Вьючные_животные > Объединенные_животные
+  437  cat Объединенные_животные
+  438  mv Объединенные_животные Друзья_человека
+  439  mkdir Питомник
+  440  mv Друзья_человека Питомник/
+  441  sudo apt update
+  442  sudo apt install software-properties-common
+  443  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ $(lsb_release -cs) mysql-apt-config'
+  444  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-apt-config'
+  445  sudo apt-key adv --keyserver keys.gnupg.net --recv-keys B7B3B788A8D3785C
+  446  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B7B3B788A8D3785C
+  447  sudo apt update
+  448  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-apt-config'
+  449  sudo apt install mysql-server
+  450  wget http://security.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.68.0-1ubuntu2.7_amd64.deb
+  451  sudo apt update
+  452  sudo apt install curl
+  453  apt-cache search curl
+  454  wget http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.68.0-1ubuntu2.7_amd64.deb
+  455  sudo dpkg -i curl_7.68.0-1ubuntu2.7_amd64.deb
+  456  suodo apt update 
+  457  sudo apt update 
+  458  sudo apt install curl 
+  459  sudo add-apt-repository --remove 'deb http://repo.mysql.com/apt/ubuntu/ $(lsb_release -cs) mysql-apt-config'
+  460  sudo apt update
+  461  sudo apt install mysql-server
+  462  sudo systemctl status mysql
+  463  sudo mysql
+  464  history
+  465  sudo mysql
+  466  echo -e "Собаки\Кошки\Хомяки" > Домашние_животные.txt
+  467  echo -e "Лошади\nВерблюды\nОслы" > Вьючные_животные.txt
+  468  cat Домашние_животные.txt Вьючные_животные.txt
+  469  cat Домашние_животные.txt Вьючные_животные.txt > Друзья_человека.txt
+  470  cat Друзья_человека.txt
+  471  mv Друзья_человека.txt Друзья_человека_новое_имя.txt
+  472  git clone https://github.com/FRONTED-7/ProjectAnimal.git
+  473  > ProjectAnimal
+  474  rm -rf ProjectAnimal
+  475  git clone https://github.com/FRONTED-7/ProjectAnimal.git
+  476  cat > Домашние_животные <<EOF
+Собаки
+Кошки
+Хомяки
+EOF
+
+  477  cat > Вьючные_животные <<EOF
+Лошади
+Верблюды
+Ослы
+EOF
+
+  478  cat Домашние_животные Вьючные_животные > Объединенные_животные
+  479  cat Объединенные_животные
+  480  mv Объединенные_животные Друзья_человека
+  481  mkdir Животные
+  482  mv Друзья_человека Животные/
+  483  sudo apt-get install software-properties-common
+  484  wget https://dev.mysql.com/get/mysql-apt-config_0.8.17-1_all.deb
+  485  sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
+  486  sudo apt-get update
+  487  sudo apt update
+  488  sudo apt install mysql-server
+  489  apt-cache search mysql
+  490  history > history.txt
+  491  sudo apt-get install my0sql-server
+  492  sudo apt-get install mysql-server
+  493  history > history.txt
+  494  history
+  495  history > history.txt
